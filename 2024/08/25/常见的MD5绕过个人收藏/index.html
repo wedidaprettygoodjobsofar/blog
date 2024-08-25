@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>常见的MD5绕过个人收藏 | hatchet的个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="写在前面php 对 MD5 加密方法为$a&#x3D;md5(‘string’);比起python就是神仙级，壮哉php。php中存在强比较(&#x3D;&#x3D;&#x2F;!&#x3D;)和弱比较(&#x3D;&#x3D;&#x3D;&#x2F;!&#x3D;&#x3D;)，组两个数组比较可以绕过两个比较(a[]&#x3D;1&amp;b[]&#x3D;2)0e+纯数字只能绕过弱比较，注意只">
+<meta property="og:type" content="article">
+<meta property="og:title" content="常见的MD5绕过个人收藏">
+<meta property="og:url" content="https://blog.hatchet.top/2024/08/25/%E5%B8%B8%E8%A7%81%E7%9A%84MD5%E7%BB%95%E8%BF%87%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/index.html">
+<meta property="og:site_name" content="hatchet的个人博客">
+<meta property="og:description" content="写在前面php 对 MD5 加密方法为$a&#x3D;md5(‘string’);比起python就是神仙级，壮哉php。php中存在强比较(&#x3D;&#x3D;&#x2F;!&#x3D;)和弱比较(&#x3D;&#x3D;&#x3D;&#x2F;!&#x3D;&#x3D;)，组两个数组比较可以绕过两个比较(a[]&#x3D;1&amp;b[]&#x3D;2)0e+纯数字只能绕过弱比较，注意只">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-24T22:32:27.000Z">
+<meta property="article:modified_time" content="2024-08-24T23:37:05.559Z">
+<meta property="article:author" content="hatchet">
+<meta property="article:tag" content="技术分享，教程，博客">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="hatchet的个人博客" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">hatchet的个人博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS 订阅"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="搜索"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://blog.hatchet.top"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-常见的MD5绕过个人收藏" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/08/25/%E5%B8%B8%E8%A7%81%E7%9A%84MD5%E7%BB%95%E8%BF%87%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/" class="article-date">
+  <time class="dt-published" datetime="2024-08-24T22:32:27.000Z" itemprop="datePublished">2024-08-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      常见的MD5绕过个人收藏
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>php 对 MD5 加密方法为$a&#x3D;md5(‘string’);比起python就是神仙级，壮哉php。<br>php中存在强比较(&#x3D;&#x3D;&#x2F;!&#x3D;)和弱比较(&#x3D;&#x3D;&#x3D;&#x2F;!&#x3D;&#x3D;)，组两个数组比较可以绕过两个比较(a[]&#x3D;1&amp;b[]&#x3D;2)<br>0e+纯数字只能绕过弱比较，注意只是0e开头是不能绕过比较的。<br>md5($password,’true’)-&gt;ffifdyop 多用于 sql 绕过密码</p>
+<h1 id="MD4"><a href="#MD4" class="headerlink" title="MD4"></a>MD4</h1><h2 id="md4-等于自己-a-md4-a"><a href="#md4-等于自己-a-md4-a" class="headerlink" title="md4 等于自己 -&gt; $a&#x3D;&#x3D;md4($a);"></a>md4 等于自己 -&gt; $a&#x3D;&#x3D;md4($a);</h2><p>0e251288019 0e898201062</p>
+<h1 id="MD5"><a href="#MD5" class="headerlink" title="MD5"></a>MD5</h1><h2 id="md5-后-0e-数字-md5-a-md5-b"><a href="#md5-后-0e-数字-md5-a-md5-b" class="headerlink" title="md5 后 0e+数字 -&gt; md5($a)&#x3D;&#x3D;md5($b)"></a>md5 后 0e+数字 -&gt; md5($a)&#x3D;&#x3D;md5($b)</h2><p>byGcY sonZ7y QNKCDZO 240610708 s878926199a s155964671a s214587387a</p>
+<h2 id="md5-后-等于自己-a-md5-a"><a href="#md5-后-等于自己-a-md5-a" class="headerlink" title="md5 后 等于自己 -&gt; $a&#x3D;&#x3D;md5($a)"></a>md5 后 等于自己 -&gt; $a&#x3D;&#x3D;md5($a)</h2><p>0e215962017 0e00275209979 0e00506035745 0e00540451811 0e00678205148<br>0e00741250258 0e00928251504 0e01350016114 0e01352028862<br>0e01392313004 0e01875552079 0e01975903983 0e02042356163<br>0e02218562930 0e02451355147 0e02739970294 0e02760920150<br>0e02784726287 0e03298616350 0e03393034171</p>
+<h2 id="双-md5-后等于自己-a-md5-md5-a-（没错真的有这个数）"><a href="#双-md5-后等于自己-a-md5-md5-a-（没错真的有这个数）" class="headerlink" title="双 md5 后等于自己 -&gt; $a&#x3D;&#x3D;md5(md5($a)) （没错真的有这个数）"></a>双 md5 后等于自己 -&gt; $a&#x3D;&#x3D;md5(md5($a)) （没错真的有这个数）</h2><p>0e1138100474</p>
+<h2 id="单-md5-后等于双-md5-后的自己-md5-a-md5-md5-a"><a href="#单-md5-后等于双-md5-后的自己-md5-a-md5-md5-a" class="headerlink" title="单 md5 后等于双 md5 后的自己 -&gt; md5($a)&#x3D;&#x3D;md5(md5($a))"></a>单 md5 后等于双 md5 后的自己 -&gt; md5($a)&#x3D;&#x3D;md5(md5($a))</h2><p>（施工中）</p>
+<h2 id="如果你可以-serialize-反序列化控制数字，而题目限制了字符长度为-5-以下"><a href="#如果你可以-serialize-反序列化控制数字，而题目限制了字符长度为-5-以下" class="headerlink" title="如果你可以 serialize 反序列化控制数字，而题目限制了字符长度为 5 以下"></a>如果你可以 serialize 反序列化控制数字，而题目限制了字符长度为 5 以下</h2><p>那你可以试试 INF 和 NAN 两个数字，因为无法求值，它们的 md5 值就是字符串的 md5 值</p>
+<h2 id="md5-强相等碰撞-md5-a-md5-b-md5-c"><a href="#md5-强相等碰撞-md5-a-md5-b-md5-c" class="headerlink" title="md5 强相等碰撞 -&gt; md5($a)&#x3D;&#x3D;&#x3D;md5($b)&#x3D;&#x3D;&#x3D;md5($c)"></a>md5 强相等碰撞 -&gt; md5($a)&#x3D;&#x3D;&#x3D;md5($b)&#x3D;&#x3D;&#x3D;md5($c)</h2><p>a&#x3D;%af%13%76%70%82%a0%a6%58%cb%3e%23%38%c4%c6%db%8b%60%2c%bb%90%68%a0%2d%e9%47%aa%78%49%6e%0a%c0%c0%31%d3%fb%cb%82%25%92%0d%cf%61%67%64%e8%cd%7d%47%ba%0e%5d%1b%9c%1c%5c%cd%07%2d%f7%a8%2d%1d%bc%5e%2c%06%46%3a%0f%2d%4b%e9%20%1d%29%66%a4%e1%8b%7d%0c%f5%ef%97%b6%ee%48%dd%0e%09%aa%e5%4d%6a%5d%6d%75%77%72%cf%47%16%a2%06%72%71%c9%a1%8f%00%f6%9d%ee%54%27%71%be%c8%c3%8f%93%e3%52%73%73%53%a0%5f%69%ef%c3%3b%ea%ee%70%71%ae%2a%21%c8%44%d7%22%87%9f%be%79%6d%c4%61%a4%08%57%02%82%2a%ef%36%95%da%ee%13%bc%fb%7e%a3%59%45%ef%25%67%3c%e0%27%69%2b%95%77%b8%cd%dc%4f%de%73%24%e8%ab%66%74%d2%8c%68%06%80%0c%dd%74%ae%31%05%d1%15%7d%c4%5e%bc%0b%0f%21%23%a4%96%7c%17%12%d1%2b%b3%10%b7%37%60%68%d7%cb%35%5a%54%97%08%0d%54%78%49%d0%93%c3%b3%fd%1f%0b%35%11%9d%96%1d%ba%64%e0%86%ad%ef%52%98%2d%84%12%77%bb%ab%e8%64%da%a3%65%55%5d%d5%76%55%57%46%6c%89%c9%df%b2%3c%85%97%1e%f6%38%66%c9%17%22%e7%ea%c9%f5%d2%e0%14%d8%35%4f%0a%5c%34%d3%73%a5%98%f7%66%72%aa%43%e3%bd%a2%cd%62%fd%69%1d%34%30%57%52%ab%41%b1%91%65%f2%30%7f%cf%c6%a1%8c%fb%dc%c4%8f%61%a5%93%40%1a%13%d1%09%c5%e0%f7%87%5f%48%e7%d7%b3%62%04%a7%c4%cb%fd%f4%ff%cf%3b%74%28%1c%96%8e%09%73%3a%9b%a6%2f%ed%b7%99%d5%b9%05%39%95%ab<br>&amp;b&#x3D;%af%13%76%70%82%a0%a6%58%cb%3e%23%38%c4%c6%db%8b%60%2c%bb%90%68%a0%2d%e9%47%aa%78%49%6e%0a%c0%c0%31%d3%fb%cb%82%25%92%0d%cf%61%67%64%e8%cd%7d%47%ba%0e%5d%1b%9c%1c%5c%cd%07%2d%f7%a8%2d%1d%bc%5e%2c%06%46%3a%0f%2d%4b%e9%20%1d%29%66%a4%e1%8b%7d%0c%f5%ef%97%b6%ee%48%dd%0e%09%aa%e5%4d%6a%5d%6d%75%77%72%cf%47%16%a2%06%72%71%c9%a1%8f%00%f6%9d%ee%54%27%71%be%c8%c3%8f%93%e3%52%73%73%53%a0%5f%69%ef%c3%3b%ea%ee%70%71%ae%2a%21%c8%44%d7%22%87%9f%be%79%6d%c4%61%a4%08%57%02%82%2a%ef%36%95%da%ee%13%bc%fb%7e%a3%59%45%ef%25%67%3c%e0%27%69%2b%95%77%b8%cd%dc%4f%de%73%24%e8%ab%66%74%d2%8c%68%06%80%0c%dd%74%ae%31%05%d1%15%7d%c4%5e%bc%0b%0f%21%23%a4%96%7c%17%12%d1%2b%b3%10%b7%37%60%68%d7%cb%35%5a%54%97%08%0d%54%78%49%d0%93%c3%b3%fd%1f%0b%35%11%9d%96%1d%ba%64%e0%86%ad%ef%52%98%2d%84%12%77%bb%ab%e8%64%da%a3%65%55%5d%d5%76%55%57%46%6c%89%c9%5f%b2%3c%85%97%1e%f6%38%66%c9%17%22%e7%ea%c9%f5%d2%e0%14%d8%35%4f%0a%5c%34%d3%f3%a5%98%f7%66%72%aa%43%e3%bd%a2%cd%62%fd%e9%1d%34%30%57%52%ab%41%b1%91%65%f2%30%7f%cf%c6%a1%8c%fb%dc%c4%8f%61%a5%13%40%1a%13%d1%09%c5%e0%f7%87%5f%48%e7%d7%b3%62%04%a7%c4%cb%fd%f4%ff%cf%3b%74%a8%1b%96%8e%09%73%3a%9b%a6%2f%ed%b7%99%d5%39%05%39%95%ab<br>&amp;c&#x3D;%af%13%76%70%82%a0%a6%58%cb%3e%23%38%c4%c6%db%8b%60%2c%bb%90%68%a0%2d%e9%47%aa%78%49%6e%0a%c0%c0%31%d3%fb%cb%82%25%92%0d%cf%61%67%64%e8%cd%7d%47%ba%0e%5d%1b%9c%1c%5c%cd%07%2d%f7%a8%2d%1d%bc%5e%2c%06%46%3a%0f%2d%4b%e9%20%1d%29%66%a4%e1%8b%7d%0c%f5%ef%97%b6%ee%48%dd%0e%09%aa%e5%4d%6a%5d%6d%75%77%72%cf%47%16%a2%06%72%71%c9%a1%8f%00%f6%9d%ee%54%27%71%be%c8%c3%8f%93%e3%52%73%73%53%a0%5f%69%ef%c3%3b%ea%ee%70%71%ae%2a%21%c8%44%d7%22%87%9f%be%79%ed%c4%61%a4%08%57%02%82%2a%ef%36%95%da%ee%13%bc%fb%7e%a3%59%45%ef%25%67%3c%e0%a7%69%2b%95%77%b8%cd%dc%4f%de%73%24%e8%ab%e6%74%d2%8c%68%06%80%0c%dd%74%ae%31%05%d1%15%7d%c4%5e%bc%0b%0f%21%23%a4%16%7c%17%12%d1%2b%b3%10%b7%37%60%68%d7%cb%35%5a%54%97%08%0d%54%78%49%d0%93%c3%33%fd%1f%0b%35%11%9d%96%1d%ba%64%e0%86%ad%6f%52%98%2d%84%12%77%bb%ab%e8%64%da%a3%65%55%5d%d5%76%55%57%46%6c%89%c9%df%b2%3c%85%97%1e%f6%38%66%c9%17%22%e7%ea%c9%f5%d2%e0%14%d8%35%4f%0a%5c%34%d3%73%a5%98%f7%66%72%aa%43%e3%bd%a2%cd%62%fd%69%1d%34%30%57%52%ab%41%b1%91%65%f2%30%7f%cf%c6%a1%8c%fb%dc%c4%8f%61%a5%93%40%1a%13%d1%09%c5%e0%f7%87%5f%48%e7%d7%b3%62%04%a7%c4%cb%fd%f4%ff%cf%3b%74%28%1c%96%8e%09%73%3a%9b%a6%2f%ed%b7%99%d5%b9%05%39%95%ab</p>
+<p>数据大抵是没有问题的，出错可以试着检查下是否支持 url 编码，这里点名 绿色 hackbar，感觉直接传 url 编码的参数总会报错。打 web 做这种题一定要用 burpsuite 传参，鬼知道出什么问题，，有能力的可以 python 写 request</p>
+<h1 id="SHA1"><a href="#SHA1" class="headerlink" title="SHA1"></a>SHA1</h1><h2 id="sha1-后-0e-数字-sha1-a-sha1-b"><a href="#sha1-后-0e-数字-sha1-a-sha1-b" class="headerlink" title="sha1 后 0e+数字 -&gt; sha1($a)&#x3D;&#x3D;sha1($b)"></a>sha1 后 0e+数字 -&gt; sha1($a)&#x3D;&#x3D;sha1($b)</h2><p>aaroZmOk aaK1STfY aaO8zKZF aa3OFF9m<br>f2WfQ iv2Cn</p>
+<h2 id="sha1-强相等碰撞-sha1-a-sha1-b"><a href="#sha1-强相等碰撞-sha1-a-sha1-b" class="headerlink" title="sha1 强相等碰撞 -&gt; sha1($a)&#x3D;&#x3D;&#x3D;sha1(b)"></a>sha1 强相等碰撞 -&gt; sha1($a)&#x3D;&#x3D;&#x3D;sha1(b)</h2><p>array1&#x3D;%25PDF-1.3%0A%25%E2%E3%CF%D3%0A%0A%0A1%200%20obj%0A%3C%3C&#x2F;Width%202%200%20R&#x2F;Height%203%200%20R&#x2F;Type%204%200%20R&#x2F;Subtype%205%200%20R&#x2F;Filter%206%200%20R&#x2F;ColorSpace%207%200%20R&#x2F;Length%208%200%20R&#x2F;BitsPerComponent%208%3E%3E%0Astream%0A%FF%D8%FF%FE%00%24SHA-1%20is%20dead%21%21%21%21%21%85&#x2F;%EC%09%239u%9C9%B1%A1%C6%3CL%97%E1%FF%FE%01%7FF%DC%93%A6%B6%7E%01%3B%02%9A%AA%1D%B2V%0BE%CAg%D6%88%C7%F8K%8CLy%1F%E0%2B%3D%F6%14%F8m%B1i%09%01%C5kE%C1S%0A%FE%DF%B7%608%E9rr&#x2F;%E7%ADr%8F%0EI%04%E0F%C20W%0F%E9%D4%13%98%AB%E1.%F5%BC%94%2B%E35B%A4%80-%98%B5%D7%0F%2A3.%C3%7F%AC5%14%E7M%DC%0F%2C%C1%A8t%CD%0Cx0Z%21Vda0%97%89%60k%D0%BF%3F%98%CD%A8%04F%29%A1<br>&amp;array2&#x3D;%25PDF-1.3%0A%25%E2%E3%CF%D3%0A%0A%0A1%200%20obj%0A%3C%3C&#x2F;Width%202%200%20R&#x2F;Height%203%200%20R&#x2F;Type%204%200%20R&#x2F;Subtype%205%200%20R&#x2F;Filter%206%200%20R&#x2F;ColorSpace%207%200%20R&#x2F;Length%208%200%20R&#x2F;BitsPerComponent%208%3E%3E%0Astream%0A%FF%D8%FF%FE%00%24SHA-1%20is%20dead%21%21%21%21%21%85&#x2F;%EC%09%239u%9C9%B1%A1%C6%3CL%97%E1%FF%FE%01sF%DC%91f%B6%7E%11%8F%02%9A%B6%21%B2V%0F%F9%CAg%CC%A8%C7%F8%5B%A8Ly%03%0C%2B%3D%E2%18%F8m%B3%A9%09%01%D5%DFE%C1O%26%FE%DF%B3%DC8%E9j%C2&#x2F;%E7%BDr%8F%0EE%BC%E0F%D2%3CW%0F%EB%14%13%98%BBU.%F5%A0%A8%2B%E31%FE%A4%807%B8%B5%D7%1F%0E3.%DF%93%AC5%00%EBM%DC%0D%EC%C1%A8dy%0Cx%2Cv%21V%60%DD0%97%91%D0k%D0%AF%3F%98%CD%A4%BCF%29%B1</p>
+<h2 id="sha1-后等于自己"><a href="#sha1-后等于自己" class="headerlink" title="sha1 后等于自己"></a>sha1 后等于自己</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">              text                                            SHA1 Hash</span><br><span class="line">0e00000000000000000000081614617300000000 ==&gt; 0e65307525940999632287492285468259219070</span><br><span class="line">0e00000000000000000000721902017120000000 ==&gt; 0e94981159498252295418182453841140483274</span><br><span class="line">0e01011001101011010001101110101100101000 ==&gt; 0e48906523151976751117677463787111106598</span><br><span class="line">0e11001000001010011000100000010001101000 ==&gt; 0e63407184960930419027062777705081379452</span><br><span class="line">0e01000001100000001010011011001000000100 ==&gt; 0e55962072388397083814346733718698213796</span><br><span class="line">0e10011110000101101000011101011010100100 ==&gt; 0e31188585417285828785355336774237712792</span><br><span class="line">0e01010111000111111010101011010111010100 ==&gt; 0e45906344569616659428808892091261969181</span><br><span class="line">0e00100001110000001111010000010011101100 ==&gt; 0e14860258669052332549568607710438132953</span><br><span class="line">0e11110000111010001001101111111110010010 ==&gt; 0e12174258436385758552874426941686538483</span><br><span class="line">0e10111110011100101100010101111010000110 ==&gt; 0e99774398282593376043462038572281385389</span><br><span class="line">0e11001111110111110010111010000011110110 ==&gt; 0e63185221301034624940345471074357888797</span><br><span class="line">0e00001010010101100100101011101110001110 ==&gt; 0e90943988772171749054413593888105986782</span><br><span class="line">0e01011101110010111011110010010010101110 ==&gt; 0e01608800192659803576771346607441737826</span><br><span class="line">0e10111110101111001000000100011101101110 ==&gt; 0e49094541458479495263034294421025186938</span><br><span class="line">0e11100111101110011010111001010101111110 ==&gt; 0e55770706149948760086200713505841887543</span><br><span class="line">0e11111001010101100110011001010001110001 ==&gt; 0e91120687121163809515824135435029958137</span><br><span class="line">0e01000111101111110010010010000001001001 ==&gt; 0e78071797328546369301825420848872451849</span><br><span class="line">0e00100110100010100110001101110110110101 ==&gt; 0e06077380408260614659219920561082767632</span><br><span class="line">0e11111100001011000011110100100010111101 ==&gt; 0e12149120354415335220758399492713921588</span><br><span class="line">0e00111100110101101001000101011011111101 ==&gt; 0e38661126569790555598431905065403870516</span><br><span class="line">0e10100011100101000001110010100110100011 ==&gt; 0e55745078154640212511596259055910278070</span><br><span class="line">0e10011110011111001001100100000111011011 ==&gt; 0e20319731123101477913295720812414482217</span><br></pre></td></tr></table></figure>
+
+<h1 id="自己爆破用脚本"><a href="#自己爆破用脚本" class="headerlink" title="自己爆破用脚本"></a>自己爆破用脚本</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> hashlib</span><br><span class="line"><span class="keyword">import</span> itertools</span><br><span class="line"><span class="keyword">import</span> string</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">is_valid_md5</span>(<span class="params">md5_hash</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;检查MD5哈希值是否以0e开头并且后面跟随纯数字&quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">return</span> md5_hash.startswith(<span class="string">&quot;0e&quot;</span>) <span class="keyword">and</span> md5_hash[<span class="number">2</span>:].isdigit()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">find_valid_a</span>():</span><br><span class="line">    <span class="string">&quot;&quot;&quot;暴力求解a，使得md5(a)和md5(md5(a))都满足条件&quot;&quot;&quot;</span></span><br><span class="line">    chars = (</span><br><span class="line">        string.ascii_lowercase + string.ascii_uppercase + string.digits</span><br><span class="line">    )  <span class="comment"># 允许的字符集</span></span><br><span class="line">    <span class="keyword">for</span> length <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">10</span>):  <span class="comment"># 控制a的长度</span></span><br><span class="line">        <span class="built_in">print</span>(length)</span><br><span class="line">        <span class="keyword">for</span> candidate <span class="keyword">in</span> itertools.product(chars, repeat=length):</span><br><span class="line">            a = <span class="string">&quot;&quot;</span>.join(candidate)</span><br><span class="line">            md5_a = hashlib.md5(a.encode()).hexdigest()</span><br><span class="line">            md5_md5_a = hashlib.md5(md5_a.encode()).hexdigest()</span><br><span class="line">            <span class="keyword">if</span> is_valid_md5(md5_a) <span class="keyword">and</span> is_valid_md5(md5_md5_a):</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;Found a: <span class="subst">&#123;a&#125;</span>&quot;</span>)</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;md5(a): <span class="subst">&#123;md5_a&#125;</span>&quot;</span>)</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">f&quot;md5(md5(a)): <span class="subst">&#123;md5_md5_a&#125;</span>&quot;</span>)</span><br><span class="line">                <span class="keyword">return</span> a</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 执行暴力求解</span></span><br><span class="line">find_valid_a()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="说在后面"><a href="#说在后面" class="headerlink" title="说在后面"></a>说在后面</h1><p>我在一开始学习 MD5 绕过时吃了很多亏。还是被勾币出题人拷打少了，导致很多打只能自己硬咽下去。这是博客的一篇文章，在写之时深深感慨自己在茫茫搜索 MD5 时的无力，到自己写时，大大弥补加了很多自己当时搜索时的关键词，希望有点帮助吧。。。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://blog.hatchet.top/2024/08/25/%E5%B8%B8%E8%A7%81%E7%9A%84MD5%E7%BB%95%E8%BF%87%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/" data-id="cm08rnn6f0000wiot9v40axmn" data-title="常见的MD5绕过个人收藏" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2024/08/25/test/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">test</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2024/08/">八月 2024</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2024/08/25/%E5%B8%B8%E8%A7%81%E7%9A%84MD5%E7%BB%95%E8%BF%87%E4%B8%AA%E4%BA%BA%E6%94%B6%E8%97%8F/">常见的MD5绕过个人收藏</a>
+          </li>
+        
+          <li>
+            <a href="/2024/08/25/test/">test</a>
+          </li>
+        
+          <li>
+            <a href="/2024/08/25/%E8%AE%B0Markdown%E8%AF%AD%E6%B3%95/">记Markdown语法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2024 hatchet<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.hatchet.top/package.json</loc>
+    <loc>https://blog.hatchet.top/manifest.json</loc>
     
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -14,15 +14,6 @@
     <loc>https://blog.hatchet.top/about/index.html</loc>
     
     <lastmod>2024-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/manifest.json</loc>
-    
-    <lastmod>2024-08-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +94,7 @@
 
   <url>
     <loc>https://blog.hatchet.top/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,28 +102,28 @@
   
   <url>
     <loc>https://blog.hatchet.top/tags/CTF/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/crypto/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/web/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/PHP/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -141,7 +132,7 @@
   
   <url>
     <loc>https://blog.hatchet.top/categories/CTF/</loc>
-    <lastmod>2024-09-06</lastmod>
+    <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

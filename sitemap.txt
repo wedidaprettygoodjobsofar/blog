@@ -1,4 +1,5 @@
 https://blog.hatchet.top/manifest.json
+https://blog.hatchet.top/package.json
 https://blog.hatchet.top/posts/5eef1d19.html
 https://blog.hatchet.top/posts/e93ac459.html
 https://blog.hatchet.top/posts/89707270.html

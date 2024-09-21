@@ -11,5 +11,5 @@ Disallow: /*.js
 Disallow: /*.cjs
 Disallow: /*.json
 
-Sitemap: https://blog.imzjw.cn/sitemap.xml
-Sitemap: https://blog.imzjw.cn/baidusitemap.xml
+Sitemap: https://blog.hatchet.top/sitemap.xml
+Sitemap: https://blog.hatchet.top/baidusitemap.xml

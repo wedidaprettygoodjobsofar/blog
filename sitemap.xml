@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.hatchet.top/package.json</loc>
+    <loc>https://blog.hatchet.top/manifest.json</loc>
     
     <lastmod>2024-09-26</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/manifest.json</loc>
+    <loc>https://blog.hatchet.top/package.json</loc>
     
     <lastmod>2024-09-26</lastmod>
     

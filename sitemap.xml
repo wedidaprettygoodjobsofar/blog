@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.hatchet.top/manifest.json</loc>
     
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +13,43 @@
   <url>
     <loc>https://blog.hatchet.top/package.json</loc>
     
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/posts/301c82e9.html</loc>
+    <loc>https://blog.hatchet.top/posts/fc0a87bd.html</loc>
     
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/66a71aff.html</loc>
+    
+    <lastmod>2024-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/e93ac459.html</loc>
+    
+    <lastmod>2024-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/6906b803.html</loc>
+    
+    <lastmod>2024-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +58,25 @@
   <url>
     <loc>https://blog.hatchet.top/posts/32daafef.html</loc>
     
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/301c82e9.html</loc>
+    
+    <lastmod>2024-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/27c8c18f.html</loc>
+    
+    <lastmod>2024-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,24 +86,6 @@
     <loc>https://blog.hatchet.top/posts/89707270.html</loc>
     
     <lastmod>2024-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/6906b803.html</loc>
-    
-    <lastmod>2024-09-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/27c8c18f.html</loc>
-    
-    <lastmod>2024-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -92,9 +119,9 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/posts/66a71aff.html</loc>
+    <loc>https://blog.hatchet.top/posts/db60f10c.html</loc>
     
-    <lastmod>2024-09-25</lastmod>
+    <lastmod>2024-09-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,25 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/posts/db60f10c.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hatchet.top/posts/d87f7e0c.html</loc>
-    
-    <lastmod>2024-09-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/e93ac459.html</loc>
     
     <lastmod>2024-09-20</lastmod>
     
@@ -175,43 +184,43 @@
 
   <url>
     <loc>https://blog.hatchet.top/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://blog.hatchet.top/tags/CTF/</loc>
-    <lastmod>2024-10-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hatchet.top/tags/crypto/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/web/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/PHP/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hatchet.top/tags/RCE/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/tags/python/</loc>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -220,7 +229,7 @@
   
   <url>
     <loc>https://blog.hatchet.top/categories/CTF/</loc>
-    <lastmod>2024-10-16</lastmod>
+    <lastmod>2024-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

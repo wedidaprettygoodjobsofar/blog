@@ -20,13 +20,13 @@
       
         <tags>
             
-            <tag> crypto </tag>
-            
             <tag> WP </tag>
             
             <tag> web </tag>
             
             <tag> misc </tag>
+            
+            <tag> crypto </tag>
             
         </tags>
       
@@ -377,10 +377,21 @@
     
     <entry>
       <title></title>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"hatchet的个人博客","short_name":"hatchet的个人博客","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/site-icons/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/site-icons/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/site-icons/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/site-icons/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/site-icons/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/site-icons/256.png","sizes":"256x256","type":"image/png"}],"splash_pages":null}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/package.json"/>
       <url>/package.json</url>
       
-        <content type="html"><![CDATA[{"name":"hexo-site","version":"0.0.0","private":true,"scripts":{"build":"hexo generate","clean":"hexo clean","deploy":"hexo deploy","server":"hexo server","netlify":"hexo clean && hexo generate && gulp"},"hexo":{"version":"7.3.0"},"type":"module","dependencies":{"@renbaoshuo/markdown-it-katex":"^2.0.2","gitalk":"^1.8.0","gulp":"^5.0.0","gulp-htmlmin":"^5.0.1","hexo":"^7.3.0","hexo-abbrlink":"^2.2.1","hexo-autonofollow":"^1.0.1","hexo-baidu-url-submit":"^0.0.6","hexo-browsersync":"^0.3.0","hexo-deployer-git":"^4.0.0","hexo-douban":"^2.3.6","hexo-generator-archive":"^2.0.0","hexo-generator-baidu-sitemap":"^0.1.9","hexo-generator-category":"^2.0.0","hexo-generator-feed":"^3.0.0","hexo-generator-index":"^4.0.0","hexo-generator-search":"^2.4.3","hexo-generator-sitemap":"^3.0.1","hexo-generator-tag":"^2.0.0","hexo-renderer-ejs":"^2.0.0","hexo-renderer-jade":"^0.5.0","hexo-renderer-markdown-it":"^7.1.1","hexo-renderer-stylus":"^3.0.1","hexo-server":"^3.0.0","hexo-theme-butterfly":"^5.2.2","hexo-theme-landscape":"^1.0.0","hexo-wordcount":"^6.0.1","katex":"^0.16.11","npm":"^10.9.1","workbox-build":"^7.1.1"},"devDependencies":{"@babel/core":"^7.25.2","@babel/preset-env":"^7.26.0","gulp-babel":"^8.0.0","gulp-clean-css":"^4.3.0","gulp-fontmin":"^0.7.4","gulp-htmlclean":"^2.7.22","gulp-imagemin":"^9.1.0","gulp-terser":"^2.1.0"}}]]></content>
+        <content type="html"><![CDATA[{"name":"hexo-site","version":"0.0.0","private":true,"scripts":{"build":"hexo generate","clean":"hexo clean","deploy":"hexo deploy","server":"hexo server","netlify":"hexo clean && hexo generate && gulp"},"hexo":{"version":"7.3.0"},"type":"module","dependencies":{"@renbaoshuo/markdown-it-katex":"^2.0.2","gitalk":"^1.8.0","gulp":"^5.0.0","gulp-htmlmin":"^5.0.1","hexo":"^7.3.0","hexo-abbrlink":"^2.2.1","hexo-autonofollow":"^1.0.1","hexo-browsersync":"^0.3.0","hexo-deployer-git":"^4.0.0","hexo-douban":"^2.3.6","hexo-generator-archive":"^2.0.0","hexo-generator-baidu-sitemap":"^0.1.9","hexo-generator-category":"^2.0.0","hexo-generator-feed":"^3.0.0","hexo-generator-index":"^4.0.0","hexo-generator-search":"^2.4.3","hexo-generator-sitemap":"^3.0.1","hexo-generator-tag":"^2.0.0","hexo-renderer-ejs":"^2.0.0","hexo-renderer-jade":"^0.5.0","hexo-renderer-markdown-it":"^7.1.1","hexo-renderer-stylus":"^3.0.1","hexo-server":"^3.0.0","hexo-theme-butterfly":"^5.2.2","hexo-theme-landscape":"^1.0.0","hexo-wordcount":"^6.0.1","katex":"^0.16.11","npm":"^10.9.1","workbox-build":"^7.1.1"},"devDependencies":{"@babel/core":"^7.25.2","@babel/preset-env":"^7.26.0","gulp-babel":"^8.0.0","gulp-clean-css":"^4.3.0","gulp-fontmin":"^0.7.4","gulp-htmlclean":"^2.7.22","gulp-imagemin":"^9.1.0","gulp-terser":"^2.1.0"}}]]></content>
       
     </entry>
     
@@ -392,17 +403,6 @@
       <url>/about/index.html</url>
       
         <content type="html"><![CDATA[<p>朋友的相亲信息</p><p>相亲启事</p><p>本人简介： 男，32 岁，身高 175cm，体重 70kg，性格温和，开朗大方。现居成都，从事互联网行业，工作稳定，收入可观。爱好运动、旅行、读书，平时也喜欢研究美食，享受生活中的点滴乐趣。朋友评价我是一个责任感强、懂得关心他人的人。</p><p>对未来伴侣的期望： 希望能找到一位性格开朗、善解人意、积极向上的女孩，年龄在 26-32 岁之间，身高 160cm 以上，身体健康，生活态度积极。希望她有稳定的工作和自己的兴趣爱好，能够在生活中彼此支持、共同成长。</p><p>婚姻观念： 我认为婚姻是一辈子的承诺，建立在彼此理解、尊重和包容的基础上。希望在今后的日子里，能与伴侣携手并肩，一起经历生活中的风雨和阳光，建立一个温馨、幸福的小家庭。</p><p>如果你也期待一段真挚、长久的感情，欢迎与我联系，一起创造属于我们的美好未来。</p><p>联系方式： 微信：xxxxxx 电话：xxxxxx</p><p>期待你的到来！</p><div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"/img/about/xq_1.jpg","alt":""},{"url":"/img/about/xq_2.jpg","alt":""},{"url":"/img/about/xq_3.jpg","alt":""},{"url":"/img/about/xq_4.jpg","alt":""},{"url":"/img/about/xq_5.jpg","alt":""}]</div>      <div class="gallery-items">      </div>    </div><p>（纯属娱乐，如有雷同，请勿当真）</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/manifest.json"/>
-      <url>/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"hatchet的个人博客","short_name":"hatchet的个人博客","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/site-icons/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/site-icons/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/site-icons/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/site-icons/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/site-icons/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/site-icons/256.png","sizes":"256x256","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     

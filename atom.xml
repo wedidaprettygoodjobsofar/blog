@@ -6,7 +6,7 @@
   <link href="https://blog.hatchet.top/atom.xml" rel="self"/>
   
   <link href="https://blog.hatchet.top/"/>
-  <updated>2025-12-15T13:37:41.785Z</updated>
+  <updated>2025-12-15T13:13:03.000Z</updated>
   <id>https://blog.hatchet.top/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://blog.hatchet.top/posts/undefined.html"/>
-    <id>https://blog.hatchet.top/posts/undefined.html</id>
-    <published>2025-12-15T13:37:41.785Z</published>
-    <updated>2025-12-15T13:37:41.785Z</updated>
-    
-    <content type="html"><![CDATA[{"private":true,"name":"posts","type":"module","dependencies":{}}]]></content>
-    
-    
-      
-      
-    <summary type="html">{&quot;private&quot;:true,&quot;name&quot;:&quot;posts&quot;,&quot;type&quot;:&quot;module&quot;,&quot;dependencies&quot;:{}}</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>NodeJS笔记自用</title>
@@ -525,6 +505,27 @@ shell_exec
     
     
     <category term="crypto" scheme="https://blog.hatchet.top/tags/crypto/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://blog.hatchet.top/posts/d87f7e0c.html"/>
+    <id>https://blog.hatchet.top/posts/d87f7e0c.html</id>
+    <published>2024-08-24T22:15:58.000Z</published>
+    <updated>2024-09-20T12:20:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>不要学我熬夜做东西。。。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;不要学我熬夜做东西。。。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
     
   </entry>
   

@@ -1,4 +1,4 @@
-rm -rf node_modules package-lock.json
-npm cache clean --force
-npm install
-npm run netlify
+rm -rf node_modules package-lock.json  
+npm cache clean --force  
+npm install  
+npm run netlify  

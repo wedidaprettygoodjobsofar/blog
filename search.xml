@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CISCN2025 x 第三届长城杯 初赛题解</title>
+      <link href="/posts/10f10d14.html"/>
+      <url>/posts/10f10d14.html</url>
+      
+        <content type="html"><![CDATA[<p>也是进线下半决赛了汲汲爆<br><img src="/img/WP/CISCN2025/d05943e559dd5033b7ec12965694161c.png" alt="alt text"><br>关注我们队的逆向手谢谢喵 <a href="http://www.czyerror.top">Error 的小破站</a></p><h1 id="题解">题解</h1><p><a href="/assets/CISCN2025_Writeup_%E6%B1%B2%E6%B1%B2%E7%88%86.pdf">CISCN2025 汲汲爆战队题解</a></p><h1 id="心里话">心里话</h1><p>这次出题审核组杀的够狠，也看到了黑榜上的一些熟面孔。260个名单，反挂效率大于ace了属于。iscc快去学（恼），你是个啥国家赛事啊，丢嗨客的脸，打个iscc2025都恶心把题解发出来。</p><p>这么一杀，半决赛的师傅们应该会正义不少吧，水分少的情况下更要努力准备了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CTF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> WP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>redis主从复制学习笔记</title>
       <link href="/posts/43774ae0.html"/>
       <url>/posts/43774ae0.html</url>

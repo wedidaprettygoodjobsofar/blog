@@ -524,9 +524,9 @@
             
             <tag> web </tag>
             
-            <tag> 刷题 </tag>
-            
             <tag> PHP </tag>
+            
+            <tag> 刷题 </tag>
             
         </tags>
       
@@ -667,6 +667,17 @@
     
     <entry>
       <title></title>
+      <link href="/README.html"/>
+      <url>/README.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://app.netlify.com/projects/iloveggbond/deploys"><img src="https://api.netlify.com/api/v1/badges/f158275c-4bbb-4eeb-b63d-0ed1122f6107/deploy-status" alt="Netlify Status"></a></p><h1 id="Local-Deployment">Local Deployment</h1><p>确认你安装了 node 和 git</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g n</span><br><span class="line"><span class="built_in">sudo</span> n latest</span><br><span class="line">npm install -g npm@latest</span><br><span class="line"><span class="built_in">rm</span> -rf node_modules package-lock.json</span><br><span class="line">npm cache clean --force</span><br><span class="line">npm install</span><br><span class="line">npm run netlify</span><br></pre></td></tr></table></figure>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/manifest.json"/>
       <url>/manifest.json</url>
       
@@ -704,17 +715,6 @@
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/README.html"/>
-      <url>/README.html</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://app.netlify.com/projects/iloveggbond/deploys"><img src="https://api.netlify.com/api/v1/badges/f158275c-4bbb-4eeb-b63d-0ed1122f6107/deploy-status" alt="Netlify Status"></a></p><h1 id="Local-Deployment">Local Deployment</h1><p>确认你安装了 node 和 git</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g n</span><br><span class="line"><span class="built_in">sudo</span> n latest</span><br><span class="line">npm install -g npm@latest</span><br><span class="line"><span class="built_in">rm</span> -rf node_modules package-lock.json</span><br><span class="line">npm cache clean --force</span><br><span class="line">npm install</span><br><span class="line">npm run netlify</span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     

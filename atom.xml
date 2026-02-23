@@ -9,7 +9,7 @@
   <link href="https://blog.hatchet.top/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, hatchet</rights>
   <title>hatchet的个人网站</title>
-  <updated>2026-02-14T07:37:31.000Z</updated>
+  <updated>2026-02-23T18:10:33.000Z</updated>
   <entry>
     <author>
       <name>hatchet</name>
@@ -31,7 +31,7 @@
 <img src="/img/WP/hgame]]>
     </summary>
     <title>hgame2026个人题解</title>
-    <updated>2026-02-14T07:37:31.000Z</updated>
+    <updated>2026-02-23T18:10:33.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -51,7 +51,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">su]]>
     </summary>
     <title>CVE-2026-24061 telnet远程提权root</title>
-    <updated>2026-01-26T12:09:06.000Z</updated>
+    <updated>2026-02-23T18:10:33.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -71,7 +71,7 @@
 关注我们队的逆向手谢谢喵 <a href="http://www.c]]>
     </summary>
     <title>CISCN2025 x 第三届长城杯 初赛题解</title>
-    <updated>2026-01-24T14:43:43.000Z</updated>
+    <updated>2026-01-24T14:50:06.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -91,7 +91,7 @@
 <pre><code>git clone https://github.com/Testzero-wz/Awsome-Redis-Rogue-Ser]]>
     </summary>
     <title>redis主从复制学习笔记</title>
-    <updated>2026-01-24T14:40:40.000Z</updated>
+    <updated>2026-01-24T14:50:41.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -112,7 +112,7 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span clas]]>
     </summary>
     <title>HeroCTF2025个人题解WP</title>
-    <updated>2025-12-15T13:54:43.000Z</updated>
+    <updated>2026-01-24T14:50:23.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -129,7 +129,7 @@
 <p>请求头加上 x-middleware-subrequest: middleware:middleware:middleware:m]]>
     </summary>
     <title>NodeJS笔记自用</title>
-    <updated>2025-12-15T13:13:03.000Z</updated>
+    <updated>2026-01-24T14:50:45.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -192,7 +192,7 @@
 <f]]>
     </summary>
     <title>GHCTF2025个人题解WP</title>
-    <updated>2025-04-03T05:45:31.000Z</updated>
+    <updated>2026-01-24T14:50:09.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -214,7 +214,7 @@
 <figure cla]]>
     </summary>
     <title>CISCN2024 x 长城杯 比赛题解</title>
-    <updated>2026-01-24T14:41:14.000Z</updated>
+    <updated>2026-01-24T14:50:04.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -234,7 +234,7 @@
 所以如果有废弃的 cookie 被直接匹配过滤，可以]]>
     </summary>
     <title>常见jwt的工具使用和技巧</title>
-    <updated>2026-01-24T14:40:40.000Z</updated>
+    <updated>2026-01-24T14:50:45.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -254,7 +254,7 @@
 关注我们队的逆向手谢谢喵 <a href="http://www.czyerr]]>
     </summary>
     <title>GeekChallenge2024 Web+Misc+Crypto个人题解WP</title>
-    <updated>2025-03-08T10:30:57.000Z</updated>
+    <updated>2026-01-24T14:50:07.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -276,7 +276,7 @@
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="me]]>
     </summary>
     <title>[CTFShow]RCE极限挑战1-5全 WP记录</title>
-    <updated>2026-01-24T14:45:46.000Z</updated>
+    <updated>2026-01-24T14:50:47.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -295,7 +295,7 @@
       <![CDATA[<p>参考自<a href="https://blog.hz2016.com/2023/07/flask%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8Fpin%E5%80%BC%E8%AE%A1%E7%AE%97%E5%92%8C%E5%88%A9%E7%]]>
     </summary>
     <title>Python中werkzeug有关PIN值的构造</title>
-    <updated>2024-11-21T13:43:19.000Z</updated>
+    <updated>2026-01-24T14:50:43.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -312,7 +312,7 @@
     <published>2024-09-25T07:33:05.000Z</published>
     <summary>最特性的一集</summary>
     <title>PHP特性</title>
-    <updated>2025-05-28T08:45:54.000Z</updated>
+    <updated>2026-01-24T14:50:54.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -357,7 +357,7 @@ python 上传模版</p>
 <h1 id="eval-asse]]>
     </summary>
     <title>各种RCE绕过</title>
-    <updated>2025-05-28T06:45:13.000Z</updated>
+    <updated>2026-01-24T14:50:42.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -373,7 +373,7 @@ python 上传模版</p>
     <published>2024-09-20T05:17:30.000Z</published>
     <summary>尽量写的详细</summary>
     <title>SQL注入汇总</title>
-    <updated>2025-09-27T10:20:42.000Z</updated>
+    <updated>2026-01-24T15:17:16.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -398,7 +398,7 @@ shell_exec
 <p>exec 和 s]]>
     </summary>
     <title>linux命令执行</title>
-    <updated>2026-01-03T06:42:20.000Z</updated>
+    <updated>2026-01-24T15:00:55.000Z</updated>
   </entry>
   <entry>
     <author>

@@ -2,27 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.hatchet.top/manifest.json</loc>
-    
-    <lastmod>2026-02-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/package.json</loc>
-    
-    <lastmod>2026-02-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hatchet.top/posts/4f990601.html</loc>
     
-    <lastmod>2026-02-14</lastmod>
+    <lastmod>2026-02-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +13,61 @@
   <url>
     <loc>https://blog.hatchet.top/posts/d1f3266d.html</loc>
     
-    <lastmod>2026-01-26</lastmod>
+    <lastmod>2026-02-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/32daafef.html</loc>
+    
+    <lastmod>2026-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/27c8c18f.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/301c82e9.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/5eef1d19.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/44659fec.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/93fc8735.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -39,6 +75,87 @@
   
   <url>
     <loc>https://blog.hatchet.top/posts/6bb6454.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/89707270.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/612758b9.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/f984f665.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/fc0a87bd.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/26728343.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/43774ae0.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/a36b167f.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/eaf5a65d.html</loc>
+    
+    <lastmod>2026-01-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hatchet.top/posts/c264f0a9.html</loc>
     
     <lastmod>2026-01-24</lastmod>
     
@@ -65,51 +182,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/posts/43774ae0.html</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/f984f665.html</loc>
-    
-    <lastmod>2026-01-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/5eef1d19.html</loc>
-    
-    <lastmod>2026-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/a36b167f.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/612758b9.html</loc>
-    
-    <lastmod>2025-12-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hatchet.top/posts/5090002e.html</loc>
     
     <lastmod>2025-09-29</lastmod>
@@ -128,69 +200,6 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/posts/27c8c18f.html</loc>
-    
-    <lastmod>2025-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/301c82e9.html</loc>
-    
-    <lastmod>2025-09-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/32daafef.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/44659fec.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/26728343.html</loc>
-    
-    <lastmod>2025-05-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/eaf5a65d.html</loc>
-    
-    <lastmod>2025-04-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/c264f0a9.html</loc>
-    
-    <lastmod>2025-03-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.hatchet.top/posts/66a71aff.html</loc>
     
     <lastmod>2025-03-02</lastmod>
@@ -203,33 +212,6 @@
     <loc>https://blog.hatchet.top/posts/6906b803.html</loc>
     
     <lastmod>2024-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/93fc8735.html</loc>
-    
-    <lastmod>2024-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/fc0a87bd.html</loc>
-    
-    <lastmod>2024-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hatchet.top/posts/89707270.html</loc>
-    
-    <lastmod>2024-11-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -322,14 +304,14 @@
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/tags/misc/</loc>
+    <loc>https://blog.hatchet.top/tags/crypto/</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.hatchet.top/tags/crypto/</loc>
+    <loc>https://blog.hatchet.top/tags/misc/</loc>
     <lastmod>2026-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
